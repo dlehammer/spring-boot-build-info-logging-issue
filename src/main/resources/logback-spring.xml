@@ -9,7 +9,7 @@
 
   <springProperty scope="context" name="springAppName" source="spring.application.name"/>
 
-  <property resource="/META-INF/build-info.properties"/>
+  <property resource="META-INF/build-info.properties"/>
 
   <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
     <encoder
